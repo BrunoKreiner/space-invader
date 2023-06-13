@@ -1,0 +1,70 @@
+--batch_size=32
+--buffer_size=100000
+--checkpoint_freq=100000
+--cuda
+--eval_epsilon=0.05
+--eval_num_episodes=30
+--noeval_render
+--eval_seed=1234
+--exploration_epsilon_final=0.1
+--exploration_epsilon_initial=1.0
+--exploration_fraction=0.1
+--gamma=0.99
+--learning_rate=0.00025
+--logdir=./runs
+--logging_freq=10000
+--max_grad_norm=10.0
+--mode=train
+--num_envs=16
+--run_name=2023-06-12_14-11-08
+--seed=42
+--target_network_update_freq=1000
+--total_steps=10000000
+--train_freq=4
+--warmup_steps=80000
+--nohelp
+--nohelpfull
+--nohelpshort
+--nohelpxml
+--noonly_check_args
+--nopdb
+--nopdb_post_mortem
+--norun_with_pdb
+--norun_with_profiling
+--use_cprofile_for_profiling
+--noalsologtostderr
+--log_dir=
+--logger_levels=
+--nologtostderr
+--showprefixforinfo
+--stderrthreshold=fatal
+--verbosity=0
+
+Training logs:
+step=700000 | ALE/SpaceInvaders-v5/episode_frames=2302.19 | ALE/SpaceInvaders-v5/episode_reward=227.73 | ALE/SpaceInvaders-v5/episode_steps=768.75 | epsilon=0.37 | fps=6594.22 | grad_norm=1.85 | loss=0.30 | q_values=7.83
+step=710000 | ALE/SpaceInvaders-v5/episode_frames=2214.92 | ALE/SpaceInvaders-v5/episode_reward=213.98 | ALE/SpaceInvaders-v5/episode_steps=739.63 | epsilon=0.37 | fps=6293.74 | grad_norm=1.93 | loss=0.31 | q_values=8.10
+step=720000 | ALE/SpaceInvaders-v5/episode_frames=2331.49 | ALE/SpaceInvaders-v5/episode_reward=228.22 | ALE/SpaceInvaders-v5/episode_steps=778.47 | epsilon=0.36 | fps=6174.77 | grad_norm=1.84 | loss=0.30 | q_values=7.99
+step=730000 | ALE/SpaceInvaders-v5/episode_frames=2271.38 | ALE/SpaceInvaders-v5/episode_reward=192.68 | ALE/SpaceInvaders-v5/episode_steps=758.46 | epsilon=0.35 | fps=6148.21 | grad_norm=1.80 | loss=0.27 | q_values=8.10
+step=740000 | ALE/SpaceInvaders-v5/episode_frames=2326.37 | ALE/SpaceInvaders-v5/episode_reward=218.16 | ALE/SpaceInvaders-v5/episode_steps=776.79 | epsilon=0.34 | fps=6428.44 | grad_norm=1.80 | loss=0.29 | q_values=7.90
+step=750000 | ALE/SpaceInvaders-v5/episode_frames=2328.43 | ALE/SpaceInvaders-v5/episode_reward=223.60 | ALE/SpaceInvaders-v5/episode_steps=777.48 | epsilon=0.33 | fps=6110.51 | grad_norm=1.76 | loss=0.30 | q_values=7.97
+step=760000 | ALE/SpaceInvaders-v5/episode_frames=2383.62 | ALE/SpaceInvaders-v5/episode_reward=225.45 | ALE/SpaceInvaders-v5/episode_steps=795.87 | epsilon=0.32 | fps=6115.61 | grad_norm=1.74 | loss=0.29 | q_values=8.07
+step=770000 | ALE/SpaceInvaders-v5/episode_frames=2417.40 | ALE/SpaceInvaders-v5/episode_reward=245.64 | ALE/SpaceInvaders-v5/episode_steps=807.12 | epsilon=0.31 | fps=6096.14 | grad_norm=1.69 | loss=0.32 | q_values=7.91
+step=780000 | ALE/SpaceInvaders-v5/episode_frames=2389.17 | ALE/SpaceInvaders-v5/episode_reward=238.82 | ALE/SpaceInvaders-v5/episode_steps=797.74 | epsilon=0.30 | fps=6242.98 | grad_norm=1.76 | loss=0.28 | q_values=7.87
+step=790000 | ALE/SpaceInvaders-v5/episode_frames=2320.91 | ALE/SpaceInvaders-v5/episode_reward=243.50 | ALE/SpaceInvaders-v5/episode_steps=774.99 | epsilon=0.29 | fps=6187.94 | grad_norm=1.64 | loss=0.32 | q_values=7.66
+step=800000 | ALE/SpaceInvaders-v5/episode_frames=2323.33 | ALE/SpaceInvaders-v5/episode_reward=242.08 | ALE/SpaceInvaders-v5/episode_steps=775.78 | epsilon=0.28 | fps=6189.52 | grad_norm=1.69 | loss=0.34 | q_values=7.80
+step=810000 | ALE/SpaceInvaders-v5/episode_frames=2211.06 | ALE/SpaceInvaders-v5/episode_reward=218.22 | ALE/SpaceInvaders-v5/episode_steps=738.38 | epsilon=0.28 | fps=6059.22 | grad_norm=1.83 | loss=0.31 | q_values=8.14
+step=820000 | ALE/SpaceInvaders-v5/episode_frames=2301.21 | ALE/SpaceInvaders-v5/episode_reward=224.18 | ALE/SpaceInvaders-v5/episode_steps=768.38 | epsilon=0.27 | fps=6316.83 | grad_norm=1.86 | loss=0.30 | q_values=8.33
+step=830000 | ALE/SpaceInvaders-v5/episode_frames=2427.57 | ALE/SpaceInvaders-v5/episode_reward=251.30 | ALE/SpaceInvaders-v5/episode_steps=810.54 | epsilon=0.26 | fps=6087.47 | grad_norm=1.74 | loss=0.32 | q_values=8.05
+step=840000 | ALE/SpaceInvaders-v5/episode_frames=2497.92 | ALE/SpaceInvaders-v5/episode_reward=234.38 | ALE/SpaceInvaders-v5/episode_steps=833.95 | epsilon=0.25 | fps=6190.24 | grad_norm=1.75 | loss=0.31 | q_values=7.89
+step=850000 | ALE/SpaceInvaders-v5/episode_frames=2462.84 | ALE/SpaceInvaders-v5/episode_reward=246.97 | ALE/SpaceInvaders-v5/episode_steps=822.29 | epsilon=0.24 | fps=6479.87 | grad_norm=1.75 | loss=0.29 | q_values=7.98
+step=860000 | ALE/SpaceInvaders-v5/episode_frames=2471.62 | ALE/SpaceInvaders-v5/episode_reward=245.13 | ALE/SpaceInvaders-v5/episode_steps=825.18 | epsilon=0.23 | fps=6568.45 | grad_norm=1.76 | loss=0.33 | q_values=7.71
+step=870000 | ALE/SpaceInvaders-v5/episode_frames=2399.20 | ALE/SpaceInvaders-v5/episode_reward=224.82 | ALE/SpaceInvaders-v5/episode_steps=801.04 | epsilon=0.22 | fps=6496.56 | grad_norm=1.72 | loss=0.29 | q_values=7.90
+step=880000 | ALE/SpaceInvaders-v5/episode_frames=2406.03 | ALE/SpaceInvaders-v5/episode_reward=238.11 | ALE/SpaceInvaders-v5/episode_steps=803.35 | epsilon=0.21 | fps=6585.72 | grad_norm=1.70 | loss=0.31 | q_values=7.59
+step=890000 | ALE/SpaceInvaders-v5/episode_frames=2394.44 | ALE/SpaceInvaders-v5/episode_reward=231.08 | ALE/SpaceInvaders-v5/episode_steps=799.50 | epsilon=0.20 | fps=6491.13 | grad_norm=1.89 | loss=0.32 | q_values=7.92
+step=900000 | ALE/SpaceInvaders-v5/episode_frames=2433.32 | ALE/SpaceInvaders-v5/episode_reward=246.50 | ALE/SpaceInvaders-v5/episode_steps=812.44 | epsilon=0.19 | fps=6642.93 | grad_norm=1.75 | loss=0.31 | q_values=7.84
+step=910000 | ALE/SpaceInvaders-v5/episode_frames=2429.14 | ALE/SpaceInvaders-v5/episode_reward=257.89 | ALE/SpaceInvaders-v5/episode_steps=811.07 | epsilon=0.19 | fps=6547.47 | grad_norm=1.77 | loss=0.33 | q_values=7.87
+step=920000 | ALE/SpaceInvaders-v5/episode_frames=2300.26 | ALE/SpaceInvaders-v5/episode_reward=243.75 | ALE/SpaceInvaders-v5/episode_steps=768.08 | epsilon=0.18 | fps=6526.17 | grad_norm=1.78 | loss=0.32 | q_values=7.75
+step=930000 | ALE/SpaceInvaders-v5/episode_frames=2449.63 | ALE/SpaceInvaders-v5/episode_reward=244.27 | ALE/SpaceInvaders-v5/episode_steps=817.87 | epsilon=0.17 | fps=6425.38 | grad_norm=1.70 | loss=0.32 | q_values=7.60
+step=940000 | ALE/SpaceInvaders-v5/episode_frames=2496.23 | ALE/SpaceInvaders-v5/episode_reward=253.76 | ALE/SpaceInvaders-v5/episode_steps=833.44 | epsilon=0.16 | fps=6602.50 | grad_norm=1.60 | loss=0.31 | q_values=7.35
+step=950000 | ALE/SpaceInvaders-v5/episode_frames=2467.33 | ALE/SpaceInvaders-v5/episode_reward=256.55 | ALE/SpaceInvaders-v5/episode_steps=823.80 | epsilon=0.15 | fps=6499.75 | grad_norm=1.66 | loss=0.33 | q_values=7.49
+step=960000 | ALE/SpaceInvaders-v5/episode_frames=2652.20 | ALE/SpaceInvaders-v5/episode_reward=274.42 | ALE/SpaceInvaders-v5/episode_steps=885.41 | epsilon=0.14 | fps=6611.10 | grad_norm=1.66 | loss=0.32 | q_values=7.38
